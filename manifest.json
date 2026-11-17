@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.dtpietrzak.battery-indicator",
+  "name": "DTP battery indicator",
+  "version": "1.0.0",
+  "author": "dtpietrzak",
+  "license": "MIT",
+  "description": "A larger horizontal battery for the bar, tip on the left, with the charge number inside.",
+  "kinds": ["bar-widget"],
+  "entryPoints": { "barWidget": "Panel.qml" },
+  "barWidget": {
+    "displayName": "Battery",
+    "description": "Charge level in a horizontal battery. Opens power, profiles, and system stats.",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  },
+  "omarchy": { "clonedFrom": "omarchy.power" },
+  "homepage": "https://github.com/dtpietrzak/omarchy-dtp-battery-indicator"
+}

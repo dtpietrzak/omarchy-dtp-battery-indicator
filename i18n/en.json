@@ -1,0 +1,6 @@
+{
+  "battery.level": "%1 percent",
+  "battery.charging": "%1 percent, charging",
+  "battery.full": "%1 percent, fully charged",
+  "battery.holding": "%1 percent, holding charge"
+}
